@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(255, 255, 255);
+
+}s
+h1{
+    color:black;
+    background-color: violet;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top:120px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow : 1px 1px 38px palevioletred;}
+    to{box-shadow : 1px 1px 38px violet;}
+}
